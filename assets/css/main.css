@@ -2317,22 +2317,52 @@
 
 	ol {
 		list-style: decimal;
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
 		padding-left: 1.25em;
 	}
 
 		ol li {
 			padding-left: 0.25em;
 		}
+		
+		ol.sub1 {
+			list-style: upper-alpha;
+			margin: 0 0 0 0;
+			padding-left: 1.25em;
+		}
+		
+		ol.sub2 {
+			list-style: upper-roman;
+			margin: 0 0 0 0;
+			padding-left: 1.25em;
+		}
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
 		padding-left: 1em;
 	}
 
 		ul li {
 			padding-left: 0.5em;
+		}
+		
+		ul.sub1 {
+			list-style: circle;
+			margin: 0 0 0 0;
+			padding-left: 1em;
+		}
+		
+		ul.sub2 {
+			list-style: square;
+			margin: 0 0 0 0;
+			padding-left: 1em;
+		}
+		
+		ul.pad {
+			list-style:disc;
+			margin: 0 0 2em 0;
+			padding-left: 1em;
 		}
 
 		ul.alt {
@@ -2371,6 +2401,7 @@
 
 		ul.actions {
 			cursor: default;
+			margin: 0 0 2em 0;
 			list-style: none;
 			padding-left: 0;
 		}
@@ -4519,7 +4550,7 @@
 /* Footer */
 
 	#footer {
-		padding: 4em 0 2em 0;
+		padding: 1em 0 0.5em 0;
 		background: #1c1c1c;
 		text-align: center;
 	}
@@ -4535,7 +4566,7 @@
 		#footer .copyright {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.9em;
-			margin: 0 0 2em 0;
+			margin: 0 0 0.5em 0;
 			padding: 0;
 		}
 
