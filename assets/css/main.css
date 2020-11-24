@@ -3225,7 +3225,7 @@
 		height: 100%;
 		max-width: 80%;
 		overflow-y: auto;
-		padding: 3em 2em;
+		padding: 3em 2em 0 2em;
 		position: fixed;
 		right: 0;
 		top: 0;
@@ -3280,6 +3280,10 @@
 
 					#menu > ul.links > li:first-child > a:not(.button) {
 						border-top: 0 !important;
+					}
+					
+					#menu > ul.links > li:last-child > a:not(.button) {
+						border-bottom: 0 !important;
 					}
 
 		#menu .close {
