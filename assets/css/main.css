@@ -2340,6 +2340,16 @@
 				object-fit:cover;
 				object-position: 50% 60%;
 			}
+
+		.image.fitAll {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 100%;
+		}
+			.image.fitAll img{
+				margin: auto;
+				width: 100%;
+			}
 		
 		.image.main {
 			display: block;
